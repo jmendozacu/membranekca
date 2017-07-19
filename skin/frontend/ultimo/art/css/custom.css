@@ -18,7 +18,7 @@
 .wrapper {
     background-image: url("../images/main-wrapper1.jpg") !important;
     //background-position: 24% 85%;
-    background-position: center top;
+    background-position: center;
     border:none;
     background-attachment: fixed;
 }
