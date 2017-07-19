@@ -1041,5 +1041,23 @@
 		</reference>
 
 	</cms_index_index>
+        
+        <cms_index_index translate="label">
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/bootstrap.min.css</name>
+                <params/>
+            </action>
+             <action method="addItem">
+                <type>skin_css</type>
+                <name>css/custom_bootstarp_override.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/bootstrap.min.js</name>
+            </action>
+        </reference>
+    </cms_index_index>
 
 </layout>
