@@ -16,9 +16,11 @@
 /*******Home Page Css Start******/
 
 .wrapper {
-    background-image: url("../images/main-wrapper.jpg") !important;
-    background-position: 20% 160%;
+    background-image: url("../images/main-wrapper1.jpg") !important;
+    //background-position: 24% 85%;
+    background-position: center top;
     border:none;
+    background-attachment: fixed;
 }
 
 .header-container3,.header-container3 a{
@@ -37,26 +39,15 @@
 /*******Home Page Css End******/
 
 
-@media screen and (max-width: 960px){
-    .wrapper {
-        background-position: 28% 160%; 
-    }   
-}
-
 @media screen and (max-width: 768px){ 
-    .wrapper {
-        background-position: 30% 144%;
-    }
-
+  
     .header-mobile .header-primary{
         padding:30px 0px 0px;
     }
 } 
 
 @media screen and (max-width: 480px){ 
-    .wrapper {
-         background-position: 25% 156%;
-    }
+    
     .header-mobile .header-primary{
         padding:30px 0px 0px;
     }
