@@ -36,6 +36,14 @@
     padding: 0px;
 }
 
+.searchautocomplete .searchautocomplete-placeholder{
+    width:100%;
+}
+
+.searchautocomplete a{
+    color:#333;
+}
+
 /*******Home Page Css End******/
 
 
