@@ -44,6 +44,15 @@
     color:#333;
 }
 
+.footer-container .no-margin{
+    height:36px;
+    line-height:36px;
+}
+
+.footer-container{
+    margin-top:200px;
+}
+
 /*******Home Page Css End******/
 
 
