@@ -69,6 +69,8 @@
     padding-top:25%;
 }
 
+//https://w3layouts.com/preview/?l=/facsimile-a-fashion-category-flat-bootstrap-responsive-web-template/
+
 .products-grid .item:hover img{
     overflow: hidden;
     transform: scale(1.1);
