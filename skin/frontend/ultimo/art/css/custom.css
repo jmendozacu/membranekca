@@ -78,6 +78,10 @@
     transition-timing-function: ease-out;
 }
 
+#cloud-zoom-big {
+     display: block !important;
+}
+
 /*******Home Page Css End******/
 
 
