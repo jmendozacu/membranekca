@@ -69,6 +69,13 @@
     padding-top:25%;
 }
 
+.products-grid .item:hover img{
+    overflow: hidden;
+    transform: scale(1.1);
+    transition-duration: 750ms;
+    transition-timing-function: ease-out;
+}
+
 /*******Home Page Css End******/
 
 
