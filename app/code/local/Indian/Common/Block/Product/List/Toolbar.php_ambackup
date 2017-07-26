@@ -1,5 +1,5 @@
 <?php
-class Indian_Common_Block_Product_List_Toolbar extends Indian_Common_Block_Product_List_Toolbar_Amasty_Pure
+class Indian_Common_Block_Product_List_Toolbar extends Mage_Catalog_Block_Product_List_Toolbar
 {
     protected $_direction           = 'desc';
     
