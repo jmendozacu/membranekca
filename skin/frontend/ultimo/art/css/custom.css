@@ -315,6 +315,19 @@
 }
 
 /***************Css For Category Page End*********************/
+
+
+/***************Css For Product Page Start*********************/
+.catalog-product-view .img-box{
+    padding: 20px;
+}
+
+.catalog-product-view .availability{
+    float:none;
+}
+
+/***************Css For Product Page End*********************/
+
 @media screen and (max-width: 768px){ 
 
     .header-mobile .header-primary{
