@@ -326,8 +326,8 @@
     float:none;
 }
 
-.catalog-product-view .gen-tabs--style1 .tabs-panels{
-    border:none;
+.gen-tabs--style1 .tabs-panels{
+    border-bottom:none;
 }
 
 .catalog-product-view .product-view .box-additional{
@@ -346,6 +346,35 @@
     font-size: 16px;
     font-style: italic;
     font-weight: bold;
+}
+
+.catalog-product-view .product-view .box-reviews dd{
+    margin: 0 0 30px 50px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.catalog-product-view .product-view .box-reviews dt .heading{
+    font-size: 1.8em;
+    color:#333333;
+}
+
+.catalog-product-view .product-view .box-reviews dt span {
+    font-weight: bold;
+    color:#BD4A88;
+}
+
+
+.product-view .box-reviews dl {
+    margin: 10px 0 15px;
+}
+
+.catalog-product-view  .form-list label{
+    float: none;
+}
+
+.product-view .box-reviews .buttons-set button.button{
+    float: none;
 }
 
 /***************Css For Product Page End*********************/
