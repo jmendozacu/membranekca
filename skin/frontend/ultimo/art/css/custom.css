@@ -326,7 +326,40 @@
     float:none;
 }
 
+.catalog-product-view .gen-tabs--style1 .tabs-panels{
+    border:none;
+}
+
+.catalog-product-view .product-view .box-additional{
+    margin-top:0px;
+}
+
+.instock {
+    color: green;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.outofstock{
+    color:red;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 /***************Css For Product Page End*********************/
+
+/***************Css For Cart Page Start*********************/
+.checkout-cart-index caption, th, td{
+    vertical-align: middle;
+}
+
+.checkout-cart-index .data-table th, .data-table td{
+    padding:5px
+}
+
+/***************Css For Cart Page End*********************/
 
 @media screen and (max-width: 768px){ 
 
