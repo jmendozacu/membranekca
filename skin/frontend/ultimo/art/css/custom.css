@@ -390,6 +390,56 @@
 
 /***************Css For Cart Page End*********************/
 
+/*********************CSS For Blog Start**********************/
+.menu-tags h5, .menu-categories h5, .menu-recent h5{
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.block-blog .menu-recent UL LI a, .block-blog .menu-categories UL LI a, .block-blog .menu-tags UL LI a{
+    font-size: 13px;
+}
+
+
+.postTitle a {
+    background-color: #333;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.postTitle h3 {
+    font-size: 13px;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.aw-blog-read-more {
+    background-color: #333;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.postDetails {
+    font: italic 14px Georgia,serif;
+    padding: 10px 0;
+}
+
+.postTitle h1{
+    background-color: #333;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+/*********************CSS For Blog End**********************/
+
 @media screen and (max-width: 768px){ 
 
     .header-mobile .header-primary{
@@ -406,11 +456,11 @@
         padding: 7px 10px 7px 25px;
         text-transform: none;
     }
-    
+
     .block-layered-nav dl dd ol > li > a{
         background: none;
     }
-    
+
     .block-layered-nav dl dd ol > li > a:hover{
         background: none;
     }
