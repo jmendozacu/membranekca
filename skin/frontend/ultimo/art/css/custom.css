@@ -69,6 +69,78 @@
     padding-top:25%;
 }
 
+.footer-primary-bottom-spacing {
+    border-color: #eeeeee rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05);
+    border-top: 1px solid #eeeeee;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.footer-primary-container {
+    background-color: #222222;
+    padding-bottom: 0px;
+}
+
+.footer-bottom{
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+
+#subscribe-form .input-box {
+    margin: 0;
+    position: relative;
+}
+
+
+#subscribe-form .input-text {
+    background-color: #222;
+    color: #fff;
+    border:none;
+}
+
+.currency-switcher .label{
+    display: none !important;
+}
+
+.dropdown .dropdown-content{
+    line-height: 2.5em;
+    padding:10px;
+}
+
+.dropdown-content.left-hand a {
+    font-size: 13px;
+}
+
+
+.opc .step-title{
+    padding:0px;
+}
+
+.opc .step-title .number{
+    background: none;
+}
+
+.opc .step-title a{
+    margin-right: 10px;
+}
+
+.opc .step-title h2 {
+    font-size: 1.5em;
+    line-height: 1.8em;
+}
+
+.checkout-onepage-index .form-list input.input-text {
+    height: 26px;
+    padding: 0 5px;
+    width: 262px;
+}
+
+.checkout-onepage-index  .form-list select{
+    height: 26px;
+    padding: 0 5px;
+}
+
 /******* https://w3layouts.com/preview/?l=/facsimile-a-fashion-category-flat-bootstrap-responsive-web-template/ *******************/
 
 .products-grid .item:hover img{
@@ -437,7 +509,13 @@
     padding: 10px;
 }
 
+.commentDetails h4.username{
+    font-size: 18px;
+}
 
+.col1-set p{
+    font-size: 13px;
+}
 /*********************CSS For Blog End**********************/
 
 @media screen and (max-width: 768px){ 
