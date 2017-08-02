@@ -99,9 +99,46 @@
     border:none;
 }
 
-.currency-switcher .label{
-    display: none !important;
+.header-regular .search-wrapper{
+    max-width: 75%;
 }
+
+.label.hide-below-768{
+    display:none !important;
+}
+
+.welcome-msg{
+    margin:0px;
+}
+
+.header-top.header.container.clearer{
+    background-color: #333;
+}
+
+
+.cms-about-me .std {
+    padding: 20px;
+    text-align: justify;
+}
+
+.cms-about-me .col1-set p{
+   font-size: 14px; 
+}
+
+.blog-index-list select, .blog-post-view select{
+    height: 26px;
+    line-height:26px;
+    padding:0px;
+}
+
+#postComment .form-list label{
+    float:none;
+}
+
+.blog-post-view .commentTitle{
+    margin-bottom: 0px;
+}
+
 
 .dropdown .dropdown-content{
     line-height: 2.5em;

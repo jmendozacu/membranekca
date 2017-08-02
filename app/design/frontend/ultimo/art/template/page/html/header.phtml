@@ -221,7 +221,27 @@
 		<div class="header-top header container clearer">
 			<div class="inner-container">
 
+				<div class="left-column">
 				
+					<?php if (isset($html['topLeft_1'])): ?>
+						<?php foreach ($html['topLeft_1'] as $element): ?>
+							<div class="item item-left"><?php echo $element; ?></div>
+						<?php endforeach; ?>
+					<?php endif; ?>
+
+					<?php echo $this->getChildHtml('container_header_top_left_1'); ?>
+
+					<?php if ($tmpHtml = $this->getChildHtml('block_header_top_left')): ?>
+						<div class="item item-left block_header_top_left"><?php echo $tmpHtml; ?></div>
+					<?php endif; ?>
+					<?php if ($tmpHtml = $this->getChildHtml('block_header_top_left2')): ?>
+						<div class="item item-left block_header_top_left2"><?php echo $tmpHtml; ?></div>
+					<?php endif; ?>
+					<div class="item item-left hide-below-960">
+						<p class="welcome-msg"><?php echo $this->getChildHtml('welcome'); ?> <?php echo $this->getAdditionalHtml(); ?></p>
+					</div>
+
+				</div> <!-- end: left column -->
 
 				<div class="right-column">
 
