@@ -50,10 +50,33 @@
 
 .searchautocomplete .searchautocomplete-placeholder{
     width:100%;
+    border:1px solid #fff;
 }
 
-.searchautocomplete a{
-    color:#333;
+.searchautocomplete .searchautocomplete-placeholder ul li{
+    border:1px solid #CC3872;
+}
+
+.searchautocomplete .searchautocomplete-placeholder ul li.active {
+    background-color: #fff;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.searchautocomplete .searchautocomplete-placeholder ul li .searchautocomlete-image{
+       margin: 0 10px 50px 0;
+}
+
+.form-search .search-autocomplete li{
+    line-height: 16px;
+}
+
+.searchautocomplete a {
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .footer-container .no-margin{
