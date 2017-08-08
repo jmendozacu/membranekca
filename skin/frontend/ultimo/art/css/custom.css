@@ -64,7 +64,7 @@
 }
 
 .searchautocomplete .searchautocomplete-placeholder ul li .searchautocomlete-image{
-       margin: 0 10px 50px 0;
+    margin: 0 10px 50px 0;
 }
 
 .form-search .search-autocomplete li{
@@ -145,7 +145,7 @@
 }
 
 .cms-about-me .col1-set p{
-   font-size: 14px; 
+    font-size: 14px; 
 }
 
 .blog-index-list select, .blog-post-view select{
@@ -199,6 +199,10 @@
 .checkout-onepage-index  .form-list select{
     height: 26px;
     padding: 0 5px;
+}
+
+#nav .nav-panel-inner{
+    padding:0px;
 }
 
 /******* https://w3layouts.com/preview/?l=/facsimile-a-fashion-category-flat-bootstrap-responsive-web-template/ *******************/
@@ -597,6 +601,18 @@
 .block-account li > * {
     padding: 6px;
 }
+
+@media screen and (max-width: 960px){ 
+
+    li.mega .links a {
+       background-color:#fff !important;
+    }
+    
+    li.mega .links a:hover{
+        background-color:#cc3872 !important;
+        color: #fff !important;
+    }
+} 
 
 
 @media screen and (max-width: 768px){ 
