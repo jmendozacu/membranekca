@@ -528,6 +528,20 @@
     vertical-align: middle;
 }
 
+.checkout-agreements .agreement-content{
+    max-height:none;
+    font-size: 14px;
+}
+
+
+.sp-methods .form-list {
+    padding: 10px 5px;
+}
+
+.checkout-agreements li{
+    padding:10px;
+}
+
 .checkout-cart-index .data-table th, .data-table td{
     padding:5px
 }
